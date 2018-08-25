@@ -1,0 +1,54 @@
+.tabuleiro{
+    display: grid;
+    grid-template-columns: 160px 160px 160px;
+    grid-template-rows: 160px 160px 160px;
+    grid-gap: 10px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    
+
+}
+.vez{
+    font-family: verdana;
+    margin: auto;
+    margin-top: 10px;
+    width: 360px;
+   
+
+}
+.c{
+    text-align: center;
+    border: 2px solid#000;
+    
+}
+
+h1{
+    float: left;
+    margin-right: 50px; 
+    padding-top: 30px;
+}
+img{
+    width: 150px; 
+    height: 150px;
+}
+.r{
+   margin-top: 20px;
+   margin-left: 40%; 
+}
+
+.btn {
+     width: 100px;
+     height: 40px;
+     font-family: verdana;
+     background-color: white;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:90%;
+    margin: auto;
+    font-color: white;
+    background-color=black;
+}
